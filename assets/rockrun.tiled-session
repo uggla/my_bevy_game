@@ -13,17 +13,27 @@
             "scaleInDock": 1
         },
         "level01.tmx": {
-            "scale": 1,
-            "selectedLayer": 4,
+            "expandedObjectLayers": [
+                6,
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 5487,
-                "y": 446.5
+                "x": 1170,
+                "y": 606.75
             }
         },
         "level01.tmx#backgrounds": {
             "dynamicWrapping": true,
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "level01.tmx#cloud-1": {
+            "scaleInDock": 0.25
+        },
+        "level01.tmx#forest-1": {
+            "scaleInDock": 0.33
         },
         "level01.tmx#grad-1": {
             "scaleInDock": 1
@@ -41,9 +51,38 @@
         "level01.tmx#sky-2": {
             "scaleInDock": 1
         },
+        "level01.tmx#sky-3": {
+            "scaleInDock": 0.25
+        },
         "level01.tmx#tileset-1": {
             "dynamicWrapping": false,
-            "scaleInDock": 0.125
+            "scaleInDock": 1
+        },
+        "level02.tmx": {
+            "expandedObjectLayers": [
+                8
+            ],
+            "scale": 0.75,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 5548.666666666666,
+                "y": 575.3333333333333
+            }
+        },
+        "level02.tmx#grad-1": {
+            "scaleInDock": 1
+        },
+        "level02.tmx#rock-1": {
+            "scaleInDock": 1
+        },
+        "level02.tmx#sky-1": {
+            "scaleInDock": 1
+        },
+        "level02.tmx#sky-2": {
+            "scaleInDock": 1
+        },
+        "level02.tmx#tileset-1": {
+            "scaleInDock": 1
         },
         "menu.tmx": {
             "scale": 0.5,
@@ -58,6 +97,10 @@
         }
     },
     "last.imagePath": "/home/rribaud/workspace/rust/rock_run/assets",
+    "last.worldFilePath": "/home/rribaud/workspace/rust/rock_run/assets",
+    "loadedWorlds": [
+        "/home/rribaud/workspace/rust/rock_run/assets/level01.tmx"
+    ],
     "map.height": 45,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
@@ -69,6 +112,7 @@
     "project": "rockrun.tiled-project",
     "recentFiles": [
         "level01.tmx",
+        "level02.tmx",
         "menu.tmx"
     ],
     "tileset.embedInMap": true,

@@ -47,6 +47,19 @@ fn setup_background(mut commands: Commands, asset_server: Res<AssetServer>) {
         Level {
             id: 1,
             handle: map_handle.clone(),
+            map: Map::new("S", WINDOW_WIDTH as usize, WINDOW_HEIGHT as usize),
+        },
+    ));
+
+    let map_handle: Handle<helpers::tiled::TiledMap> = asset_server.load("level02.tmx");
+    commands.spawn((
+        helpers::tiled::TiledMapBundle {
+            tiled_map: map_handle.clone(),
+            ..Default::default()
+        },
+        Level {
+            id: 2,
+            handle: map_handle.clone(),
             map: Map::new(
                 "SHFXF\nXOFOO",
                 WINDOW_WIDTH as usize,

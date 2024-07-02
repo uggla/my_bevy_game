@@ -97,7 +97,7 @@ fn setup_moving_platforms(
     let texture = asset_server.load("moving_platform.png");
     let mut level_moving_platforms: HashMap<u8, Vec<MovingPlatform>> = HashMap::new();
     level_moving_platforms.insert(
-        1,
+        2,
         vec![
             MovingPlatform {
                 start_pos: level.map.tiled_to_bevy_coord(Vec2::new(5920.0, 576.0)),

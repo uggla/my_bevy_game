@@ -388,7 +388,7 @@ fn position_sensor_collision(
 
         let mut level_bat_pos: HashMap<u8, HashMap<String, [Vec2; 2]>> = HashMap::new();
         level_bat_pos.insert(
-            1,
+            2,
             HashMap::from([
                 (
                     "bat01".to_string(),
